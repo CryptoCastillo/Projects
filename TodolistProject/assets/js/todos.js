@@ -4,3 +4,5 @@ $("li").click(function(){
 		textDecoration: "line-through"
 	});
 });
+
+//testing out this githubstuffs
