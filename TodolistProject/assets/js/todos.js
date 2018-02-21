@@ -1,8 +1,4 @@
+//Check Off Specific Tools By Clicking
 $("li").click(function(){
-	$(this).css({
-		color: "gray",
-		textDecoration: "line-through"
-	});
+	$(this).toggleClass("completed");
 });
-
-//testing out this githubstuffs
