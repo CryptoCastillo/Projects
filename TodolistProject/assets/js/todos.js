@@ -10,3 +10,9 @@ $("span").click(function(event){
 	});
 	event.stopPropagation(); //stops all other listeners from firing
 });
+
+$("input[type='text'").keypress(function(event){
+	if(event.which === 13){
+		console.log("you hit enter!")
+	}
+});
